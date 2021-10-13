@@ -1,0 +1,36 @@
+h1,
+h2 {
+	text-align: center;
+	text-shadow: 2px 2px 2px #0000008e;
+}
+
+button {
+	transition: 1s;
+	position: absolute;
+	font-size: 2rem;
+	left: 47%;
+	top: 35%;
+	border: currentColor;
+	border-radius: 8px;
+	background-color: lightskyblue;
+}
+
+#game div {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 18%;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+	background: black;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 5px 5px 3px #0000008e;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #0064fadc;
+	color: white;
+	transition: 1s;
+}
